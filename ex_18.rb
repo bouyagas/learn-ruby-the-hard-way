@@ -1,7 +1,7 @@
 # This one is like your script with ARGV
 def print_two(*args)
 	arg1, arg2, arg3 = args 
-	puts " \t* arg1: #{args}, \t* arg2: #{arg2}, \t* arg3: #{arg3}"
+	puts " arg1: #{args},  arg2: #{arg2},  arg3: #{arg3}"
 end
 
 #ok , that is *arg is actually pointless, we can just do this 
